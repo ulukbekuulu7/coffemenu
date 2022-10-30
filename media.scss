@@ -1,0 +1,255 @@
+@import "scss/global";
+
+
+@media (max-width: 1440px) {
+
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+  .hero--btn{
+    margin:10px 10px ;
+  }
+  .header--block__two input {
+    width: 390px;
+    height: 30px;
+    background: #F3F2F2;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: #908;
+    /* padding-left: 40px; */
+  }
+
+}
+
+@media (max-width: 992px) {
+  .hero--btn{
+    margin:10px 10px ;
+  }
+  .header--block__two input {
+    width: 390px;
+    height: 30px;
+    background: #F3F2F2;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: #908;
+    /* padding-left: 40px; */
+  }
+
+  .menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+}
+
+@media (max-width: 768px) {
+  .header--block__two input {
+    width: 390px;
+    height: 30px;
+    background: #F3F2F2;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: #908;
+    /* padding-left: 40px; */
+  }
+.tea{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+  .hero--btn{
+    margin:10px 10px ;
+  }
+  .menu--block {
+    width: 224px;
+    height: 315px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 15px 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header--block__two input {
+    width: 240px;
+    height: 30px;
+    background: #F3F2F2;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: #908;
+    /* padding-left: 40px; */
+  }
+.tea{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+  .menu--title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 0;
+  }
+  .hero--btn{
+    margin:10px 10px ;
+  }
+  .menu--block {
+    width: 224px;
+    height: 315px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 15px 10px;
+  }
+}
+
+@media (max-width: 451px) {
+  .header--block__two input {
+    width: 200px;
+    height: 30px;
+  }
+  .hero--btn{
+    margin:10px 10px ;
+  }
+
+  .menu--block {
+    width: 224px;
+    height: 315px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 15px 10px;
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 414px) {
+  .header--block__two input {
+    width: 180px;
+    height: 30px;
+  }
+  .hero--btn{
+    a{
+      margin:10px 10px ;
+    }
+
+  }
+  .menu--block {
+    width: 224px;
+    height: 315px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 15px 10px;
+    margin-left: -10px;
+  }
+  .tea--block {
+    width: 224px;
+    height: 325px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 15px 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header--block__two input {
+    width: 150px;
+    height: 30px;
+    background: #F3F2F2;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: #908;
+  }
+  .hero--btn{
+    margin:10px 10px ;
+  }
+  .menu--block {
+    width: 224px;
+    height: 315px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 15px 10px;
+  }
+  .tea--block {
+    width: 224px;
+    height: 325px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 15px 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header--block__two input {
+    width: 130px;
+    height: 30px;
+    background: #F3F2F2;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: #908;
+  }
+  .hero--btn{
+    margin:10px 10px ;
+  }
+  .menu--block {
+    width: 224px;
+    height: 315px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 15px 10px;
+  }
+  .tea--block {
+    width: 224px;
+    height: 325px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 15px 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header--block__two input {
+    width: 100px;
+    height: 30px;
+    background: #F3F2F2;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: #908;
+    /* padding-left: 40px; */
+  }
+  .menu--block {
+    width: 224px;
+    height: 315px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 15px 10px;
+  }
+  .hero--btn{
+    margin:10px 10px ;
+  }
+  .tea--block {
+    width: 224px;
+    height: 325px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 15px 10px;
+  }
+}

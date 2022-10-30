@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+body {
+  background: url("https://source.unsplash.com/random/1600x900/") no-repeat center/cover;
+  font-family: sans-serif;
+}
+
+#header .header {
+  padding: 20px 0;
+}
+#header .header--block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .header--block__one h1 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #522C15;
+}
+#header .header--block__one p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #522C15;
+}
+#header .header--block__two input {
+  width: 400px;
+  height: 30px;
+  background: #F3F2F2;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: #908;
+  padding-left: 40px;
+}
+#header .header--block__two a {
+  position: absolute;
+  color: gray;
+  left: 495px;
+  top: 30px;
+}
+#header .header--block__three a {
+  font-size: 30px;
+  color: #522C15;
+}
+
+#hero .hero {
+  padding: 40px 0;
+}
+#hero .hero--btn button {
+  border: 2px solid #522C15;
+  width: 100px;
+  height: 25px;
+  border-radius: 8px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-weight: 400;
+  color: #000000;
+  transition: 0.3s;
+}
+#hero .hero--btn button:hover {
+  background: #522C15;
+  color: #FFFFFF;
+}
+
+#menu h1 {
+  text-align: center;
+  padding: 10px 0;
+}
+#menu .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#menu .menu--block {
+  width: 214px;
+  height: 335px;
+  background: #fdf9f9;
+  border-radius: 10px;
+}
+#menu .menu--block p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #303030;
+  margin: 0 25px;
+}
+#menu .menu--block div {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+#menu .menu--block__one h1 {
+  width: 100px;
+  height: 5px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #000000;
+  margin: 0 20px;
+}
+#menu .menu--block__one button {
+  width: 70px;
+  height: 25px;
+  border: 2px solid #afafaf;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.98);
+  text-align: center;
+  transition: 0.3s;
+  margin: 0 10px;
+}
+#menu .menu--block__one button:hover {
+  background: #522C15;
+  border: none;
+  color: #FFFFFF;
+}
+#menu .menu--block__two h1 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  margin: 0 45px 0 0;
+}
+#menu .menu--block__two button {
+  width: 103px;
+  height: 25px;
+  border: 2px solid #afafaf;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.98);
+  text-align: center;
+  transition: 0.3s;
+}
+#menu .menu--block__two button:hover {
+  background: #522C15;
+  border: none;
+  color: #FFFFFF;
+}
+#menu .menu--title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+#menu .menu--title--block {
+  width: 214px;
+  height: 335px;
+  background: #fdf9f9;
+  border-radius: 10px;
+}
+#menu .menu--title--block p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #303030;
+  margin: 0 25px;
+}
+#menu .menu--title--block div {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+#menu .menu--title--block__one h1 {
+  width: 100px;
+  height: 5px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #000000;
+  margin: 0 5px;
+}
+#menu .menu--title--block__one button {
+  width: 70px;
+  height: 25px;
+  border: 2px solid #afafaf;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.98);
+  text-align: center;
+  transition: 0.3s;
+}
+#menu .menu--title--block__one button:hover {
+  background: #522C15;
+  border: none;
+  color: #FFFFFF;
+}
+#menu .menu--title--block__two h1 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  margin: 0 45px 0 0;
+}
+#menu .menu--title--block__two button {
+  width: 103px;
+  height: 25px;
+  border: 2px solid #afafaf;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.98);
+  text-align: center;
+  transition: 0.3s;
+}
+#menu .menu--title--block__two button:hover {
+  background: #522C15;
+  border: none;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=coffee.css.map */

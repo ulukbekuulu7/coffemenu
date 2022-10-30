@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+body {
+  background: url("https://source.unsplash.com/random/1600x900/") no-repeat center/cover;
+  font-family: sans-serif;
+}
+
+#header .header {
+  padding: 20px 0;
+}
+#header .header--block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .header--block__one h1 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #522C15;
+}
+#header .header--block__one p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #522C15;
+}
+#header .header--block__two input {
+  width: 400px;
+  height: 30px;
+  background: #F3F2F2;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: #908;
+  padding-left: 40px;
+}
+#header .header--block__two a {
+  position: absolute;
+  color: gray;
+  left: 495px;
+  top: 30px;
+}
+#header .header--block__three a {
+  font-size: 30px;
+  color: #522C15;
+}
+
+#hero .hero {
+  padding: 40px 0;
+}
+#hero .hero--btn button {
+  border: 2px solid #522C15;
+  width: 100px;
+  height: 25px;
+  border-radius: 8px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-weight: 400;
+  color: #000000;
+  transition: 0.3s;
+}
+#hero .hero--btn button:hover {
+  background: #522C15;
+  color: #FFFFFF;
+}
+
+#block h1 {
+  text-align: center;
+}
+#block .block {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#block .block--title {
+  margin: 35px 0 20px 0;
+  width: 459.33px;
+  height: 204.75px;
+  background: #FFFFFF;
+  border-radius: 10.8333px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#block .block--title__one {
+  padding: 0 10px;
+}
+#block .block--title__one h1 {
+  font-weight: 500;
+  font-size: 21.6667px;
+  color: #000000;
+}
+#block .block--title__one p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #303030;
+}
+#block .block--title__one button {
+  font-weight: 420;
+  width: 50px;
+  height: 20px;
+  font-size: 15px;
+  border: 2px solid rgba(225, 224, 224, 0.71);
+  color: rgba(0, 0, 0, 0.98);
+  border-radius: 4px;
+  transition: 0.4s;
+}
+#block .block--title__one button:hover {
+  color: #FFFFFF;
+  background: #522C15;
+  border: none;
+}
+#block .block--title__one .block--title__btn--br {
+  width: 70px;
+  height: 20px;
+}
+#block .block--title__two {
+  padding: 0 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+#block .block--title__two button {
+  width: 90px;
+  height: 25px;
+}
+
+/*# sourceMappingURL=soups.css.map */
